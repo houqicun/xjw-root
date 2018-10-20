@@ -35,6 +35,7 @@
     
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
@@ -244,4 +245,26 @@
             </plugin>
         </plugins>
     </build>
+
+    <!--<profiles>-->
+        <!--<profile>-->
+            <!--<id>dev</id>-->
+            <!--<properties>-->
+                <!--<db.driver>com.mysql.jdbc.Driver</db.driver>-->
+                <!--<db.url>jdbc:mysql://localhost:3306/test</db.url>-->
+                <!--<db.username>dev</db.username>-->
+                <!--<db.password>dev_pwd</db.password>-->
+            <!--</properties>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>test</id>-->
+            <!--<properties>-->
+                <!--<db.driver>com.mysql.jdbc.Driver</db.driver>-->
+                <!--<db.url>jdbc:mysql://192.168.1.122:3306/test</db.url>-->
+                <!--<db.username>test</db.username>-->
+                <!--<db.password>test_pwd</db.password>-->
+            <!--</properties>-->
+        <!--</profile>-->
+    <!--</profiles>-->
+
 </project>
